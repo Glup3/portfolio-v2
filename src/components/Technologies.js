@@ -5,7 +5,42 @@ function Technologies() {
     <div className="block container">
       <div>
         <h1>Tech Stack</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dicta eius dolorum deleniti fugit maiores quod harum inventore quibusdam alias labore, veniam beatae facilis saepe doloremque doloribus sunt aperiam atque! Asperiores eveniet voluptatibus distinctio error, quaerat in quae nostrum excepturi, quibusdam debitis eaque? Ratione voluptas ipsam, quibusdam at molestiae doloremque ea accusamus omnis nihil quia. Repudiandae commodi provident, consequuntur temporibus iure maiores quisquam natus accusantium? Velit, omnis porro, ut praesentium facere nulla nostrum tempore cumque sunt consectetur deleniti. Optio repellendus, maxime aut laudantium, illo cumque culpa eos molestiae sed dignissimos, architecto officia at dolorum delectus est hic inventore voluptatum? Praesentium, quaerat. Quo enim iusto magni. Aut quis dolorem blanditiis maxime impedit? Ex ipsam doloribus iure omnis accusamus magnam sed. Dignissimos nesciunt fuga corrupti error minus? Ipsam numquam odit libero! Incidunt qui fugit aspernatur aliquid harum eaque rerum numquam. Perspiciatis facere ad sapiente soluta nobis quia nemo ratione ea eos repellat voluptas non et, quo recusandae numquam quae autem dolorum asperiores repellendus reiciendis consequuntur! Culpa est aperiam vitae laboriosam odit, provident, officiis unde velit fuga minus id perspiciatis voluptates placeat illo dolore nam veniam, adipisci minima earum iusto. Velit eveniet similique consequatur. Quaerat in, praesentium nisi molestiae magnam vero illo ab quod magni culpa earum quam vitae debitis unde! Autem suscipit quibusdam adipisci quod tempore numquam rerum, fuga soluta commodi exercitationem deserunt eius nulla similique vel. Tenetur, suscipit nisi! Fugiat hic fuga enim soluta corrupti ex pariatur animi porro aut veritatis, beatae delectus quaerat tempore molestias quo doloremque, aliquam unde maiores, tenetur nostrum expedita. Earum cum quam magni quod, at ut, soluta voluptas veniam similique vero atque et tempore voluptatum autem odio vitae beatae culpa placeat veritatis omnis nisi reiciendis, quibusdam sapiente. Aut, dolores! Asperiores illo, non expedita blanditiis quibusdam odit consequatur autem dignissimos libero deleniti dolor, molestias nihil nostrum ipsa recusandae unde aliquid nesciunt cum, repellendus sint debitis neque! Id distinctio dolore dignissimos minima quisquam assumenda aliquam qui eum, totam veniam quos inventore a error animi cumque ipsa quo voluptas illo temporibus? Itaque eaque quidem aliquam, quod laboriosam quae tempora beatae ipsum et assumenda illum ea cupiditate. Animi rerum, quo dolorum ab, mollitia blanditiis odio hic voluptatum nesciunt similique a est et, sed iure harum. Beatae fuga voluptatum delectus veniam debitis ut officiis libero velit illo aperiam? Asperiores tenetur culpa neque dicta voluptatem accusantium deleniti soluta, enim placeat, itaque in ab rerum! Quos molestias unde ea cupiditate! Minima iusto nulla, quam culpa vel voluptates beatae incidunt nobis! Architecto suscipit recusandae voluptates. Aliquam, necessitatibus asperiores! Nihil pariatur dignissimos dolor rem incidunt perspiciatis illum ullam ut quod velit iste odit molestiae vel quaerat illo laboriosam molestias sit, a modi officia, assumenda vero magni. Ullam vero impedit incidunt inventore cupiditate sapiente natus id!</p>
+        <div className="row">
+          <div className="col s6 m4 l3 xl2"><h5>HTML</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>CSS</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>JS</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>PHP</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>JQuery</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>ReactJS</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Angular</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Django</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Spring</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Bootstrap</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Materialize</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Wordpress</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Websockets</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Java</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Android</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>C#</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Python</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Flutter</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Github</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Bitbucket</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>MySQL</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>PLSQL</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>PostgreSQL</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Firestore</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>NodeJS</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Express</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Bash</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Unity</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>GraphQL</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>REST</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Docker</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>Microservices</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>NGINX</h5></div>
+          <div className="col s6 m4 l3 xl2"><h5>CI/CD</h5></div>
+        </div>
       </div>
     </div>
   )
