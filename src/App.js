@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import ContactForm from './components/contact/ContactForm';
+import About from './components/About';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Home />
+        <About />
         <ContactForm />
         <Footer />
       </div>

@@ -7,6 +7,13 @@
   border-radius: 50%;
 }
 
+.block {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .sticky {
   position: fixed;
   top: 0;

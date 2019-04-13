@@ -7,7 +7,7 @@ import SubmitButton from './SubmitButton';
 class ContactForm extends Component {
   render() {
     return (
-      <div className="row container">
+      <div className="row container block">
         <form className="col s12">
           <div className="row">
             <NameInput />
