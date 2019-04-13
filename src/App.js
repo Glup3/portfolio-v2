@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import ContactForm from './components/contact/ContactForm';
 import About from './components/About';
+import Technologies from './components/Technologies';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Navbar />
         <Home />
         <About />
+        <Technologies />
         <ContactForm />
         <Footer />
       </div>
