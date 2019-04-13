@@ -15,7 +15,7 @@ class Navbar extends Component {
   render() {
     return (
       <header>
-        <div className="">
+        <div className="sticky">
           <nav className="nav-wrapper light-blue darken-1">
             <div className="container">
               <a href="#!" className="brand-logo">Glup3</a>
