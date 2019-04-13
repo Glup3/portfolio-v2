@@ -5,6 +5,7 @@ import Home from './components/Home';
 import ContactForm from './components/contact/ContactForm';
 import About from './components/About';
 import Technologies from './components/Technologies';
+import Projects from './components/Projects';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Home />
         <About />
         <Technologies />
+        <Projects />
         <ContactForm />
         <Footer />
       </div>
