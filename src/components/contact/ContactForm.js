@@ -10,6 +10,9 @@ class ContactForm extends Component {
       <div className="row container block">
         <form className="col s12">
           <div className="row">
+            <h1>Contact me</h1>
+          </div>
+          <div className="row">
             <NameInput />
             <EmailInput />
           </div>
