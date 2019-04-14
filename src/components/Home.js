@@ -8,6 +8,9 @@ function Home() {
         <div className="center scrollspy" id="home">
           <img src={pikachu} alt="profile" className="profile-pic"/>
           <h1>Hey, I'm Phuc!</h1>
+          <div className="progress blue lighten-4">
+              <div className="indeterminate light-blue darken-1"></div>
+          </div>
           <h5>Full Stack Dev | Junior Developer | Unsatisfied Curiosity</h5>
         </div>
       </div>
