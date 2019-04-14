@@ -4,7 +4,7 @@ function Technologies() {
   return (
     <section>
       <div className="block container">
-        <div>
+        <div className="scrollspy" id="tech">
           <h1>Tech Stack</h1>
           <div className="row">
             <div className="col s6 m4 l3 xl2"><h5>HTML</h5></div>

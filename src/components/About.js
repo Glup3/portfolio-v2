@@ -4,7 +4,7 @@ function About() {
   return (
     <section>
       <div className="block container">
-        <div>
+        <div className="scrollspy" id="about">
           <h1>About</h1>
           <p className="flow-text">Phuc Tran | 17 years old | Student</p>
           <p className="flow-text">

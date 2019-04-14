@@ -11,7 +11,13 @@ import Projects from './components/Projects';
 class App extends Component {
 
   componentDidMount() {
-    M.AutoInit();
+    var scrollspies = document.querySelectorAll('.scrollspy');
+    var sidenav = document.querySelectorAll('.sidenav');
+
+    M.ScrollSpy.init(scrollspies, {
+      "scrollOffset": 100,
+    });
+    M.Sidenav.init(sidenav, {});
   }
 
   render() {
