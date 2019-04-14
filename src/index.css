@@ -26,3 +26,13 @@
   color: black;
 	padding: 10px;
 }
+
+.project-icon {
+  font-size: 3em;
+  color: black;
+  padding: 10px;
+} 
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #039be5 !important;
+}

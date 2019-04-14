@@ -6,7 +6,96 @@ function Projects() {
       <div className="block container">
         <div className="scrollspy" id="projects">
           <h1>Projects</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dicta eius dolorum deleniti fugit maiores quod harum inventore quibusdam alias labore, veniam beatae facilis saepe doloremque doloribus sunt aperiam atque! Asperiores eveniet voluptatibus distinctio error, quaerat in quae nostrum excepturi, quibusdam debitis eaque? Ratione voluptas ipsam, quibusdam at molestiae doloremque ea accusamus omnis nihil quia. Repudiandae commodi provident, consequuntur temporibus iure maiores quisquam natus accusantium? Velit, omnis porro, ut praesentium facere nulla nostrum tempore cumque sunt consectetur deleniti. Optio repellendus, maxime aut laudantium, illo cumque culpa eos molestiae sed dignissimos, architecto officia at dolorum delectus est hic inventore voluptatum? Praesentium, quaerat. Quo enim iusto magni. Aut quis dolorem blanditiis maxime impedit? Ex ipsam doloribus iure omnis accusamus magnam sed. Dignissimos nesciunt fuga corrupti error minus? Ipsam numquam odit libero! Incidunt qui fugit aspernatur aliquid harum eaque rerum numquam. Perspiciatis facere ad sapiente soluta nobis quia nemo ratione ea eos repellat voluptas non et, quo recusandae numquam quae autem dolorum asperiores repellendus reiciendis consequuntur! Culpa est aperiam vitae laboriosam odit, provident, officiis unde velit fuga minus id perspiciatis voluptates placeat illo dolore nam veniam, adipisci minima earum iusto. Velit eveniet similique consequatur. Quaerat in, praesentium nisi molestiae magnam vero illo ab quod magni culpa earum quam vitae debitis unde! Autem suscipit quibusdam adipisci quod tempore numquam rerum, fuga soluta commodi exercitationem deserunt eius nulla similique vel. Tenetur, suscipit nisi! Fugiat hic fuga enim soluta corrupti ex pariatur animi porro aut veritatis, beatae delectus quaerat tempore molestias quo doloremque, aliquam unde maiores, tenetur nostrum expedita. Earum cum quam magni quod, at ut, soluta voluptas veniam similique vero atque et tempore voluptatum autem odio vitae beatae culpa placeat veritatis omnis nisi reiciendis, quibusdam sapiente. Aut, dolores! Asperiores illo, non expedita blanditiis quibusdam odit consequatur autem dignissimos libero deleniti dolor, molestias nihil nostrum ipsa recusandae unde aliquid nesciunt cum, repellendus sint debitis neque! Id distinctio dolore dignissimos minima quisquam assumenda aliquam qui eum, totam veniam quos inventore a error animi cumque ipsa quo voluptas illo temporibus? Itaque eaque quidem aliquam, quod laboriosam quae tempora beatae ipsum et assumenda illum ea cupiditate. Animi rerum, quo dolorum ab, mollitia blanditiis odio hic voluptatum nesciunt similique a est et, sed iure harum. Beatae fuga voluptatum delectus veniam debitis ut officiis libero velit illo aperiam? Asperiores tenetur culpa neque dicta voluptatem accusantium deleniti soluta, enim placeat, itaque in ab rerum! Quos molestias unde ea cupiditate! Minima iusto nulla, quam culpa vel voluptates beatae incidunt nobis! Architecto suscipit recusandae voluptates. Aliquam, necessitatibus asperiores! Nihil pariatur dignissimos dolor rem incidunt perspiciatis illum ullam ut quod velit iste odit molestiae vel quaerat illo laboriosam molestias sit, a modi officia, assumenda vero magni. Ullam vero impedit incidunt inventore cupiditate sapiente natus id!</p>
+          <div className="row">
+
+            <div className="col s12 m6 l4">
+              <div className="card small">
+                <div className="card-content center">
+                  <span className="card-title">iWeep</span>
+                  <p className="flow-text">Alarmclock written in Flutter</p>
+                  <i className="fab fa-android project-icon"></i>
+                  <i className="fab fa-apple project-icon"></i>
+                </div>
+                <div className="card-action">
+                  <a target="_blank" href="https://github.com/Glup3/iWeep" rel="noopener noreferrer">More</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col s12 m6 l4">
+              <div className="card small">
+                <div className="card-content center">
+                  <span className="card-title">Watch with me</span>
+                  <p className="flow-text">Watch2Gether clone (realtime)</p>
+                  <i className="fab fa-react project-icon"></i>
+                  <i className="fab fa-npm project-icon"></i>
+                </div>
+                <div className="card-action">
+                  <a target="_blank" href="https://github.com/Glup3/watch-with-me" rel="noopener noreferrer">More</a>
+                  <a target="_blank" href="https://watch-with-me-glup3.herokuapp.com/" rel="noopener noreferrer">Link</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col s12 m6 l4">
+              <div className="card small">
+                <div className="card-content center">
+                  <span className="card-title">AniLife</span>
+                  <p className="flow-text">Anime information App (AniList)</p>
+                  <i className="fab fa-android project-icon"></i>
+                  <i className="fab fa-apple project-icon"></i>
+                </div>
+                <div className="card-action">
+                  <a target="_blank" href="https://github.com/Glup3/AniLife" rel="noopener noreferrer">More</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col s12 m6 l4">
+              <div className="card small">
+                <div className="card-content center">
+                  <span className="card-title">React Blog</span>
+                  <p className="flow-text">Real-time update blog (Firestore)</p>
+                  <i className="fab fa-react project-icon"></i>
+                  <i className="fas fa-fire-alt project-icon"></i>
+                </div>
+                <div className="card-action">
+                  <a target="_blank" href="https://github.com/Glup3/react-blog" rel="noopener noreferrer">More</a>
+                  <a target="_blank" href="https://react-blog-5862a.firebaseapp.com/signin" rel="noopener noreferrer">Link</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col s12 m6 l4">
+              <div className="card small">
+                <div className="card-content center">
+                  <span className="card-title">Lichtelwiki</span>
+                  <p className="flow-text">Picture Pokedex (PokeApi)</p>
+                  <i className="fab fa-react project-icon"></i>
+                  <i className="far fa-images project-icon"></i>
+                </div>
+                <div className="card-action">
+                  <a target="_blank" href="https://github.com/Glup3/iWeep" rel="noopener noreferrer">More</a>
+                  <a target="_blank" href="https://glup3.github.io/lichtelwiki/" rel="noopener noreferrer">Link</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col s12 m6 l4">
+              <div className="card small">
+                <div className="card-content center">
+                  <span className="card-title">Portfolio v2</span>
+                  <p className="flow-text">Clean online Portfolio (current)</p>
+                  <i className="fab fa-react project-icon"></i>
+                  <i className="fab fa-google project-icon"></i>
+                </div>
+                <div className="card-action">
+                  <a target="_blank" href="https://github.com/Glup3/portfolio-v2" rel="noopener noreferrer">More</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </section>
