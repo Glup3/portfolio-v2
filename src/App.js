@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import M from 'materialize-css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -8,6 +9,11 @@ import Technologies from './components/Technologies';
 import Projects from './components/Projects';
 
 class App extends Component {
+
+  componentDidMount() {
+    M.AutoInit();
+  }
+
   render() {
     return (
       <div className="App">
