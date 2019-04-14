@@ -7,7 +7,7 @@ function Navbar() {
         <nav className="nav-wrapper custom-transparent z-depth-0">
           <div className="container">
             <a href="#home" className="brand-logo black-text">Glup3</a>
-            <a href="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons black-text">menu</i></a>
+            <a href="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="fas fa-bars black-text"></i></a>
             <ul className="right hide-on-med-and-down">
               <li><a href="#home" className="black-text">Home</a></li>
               <li><a href="#about" className="black-text">About</a></li>
