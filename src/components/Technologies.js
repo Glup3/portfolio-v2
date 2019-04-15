@@ -42,6 +42,10 @@ function Technologies() {
             <div className="col s6 m4 l3 xl2"><h5>Microservices</h5></div>
             <div className="col s6 m4 l3 xl2"><h5>NGINX</h5></div>
             <div className="col s6 m4 l3 xl2"><h5>CI/CD</h5></div>
+            <div className="col s6 m4 l3 xl2"><h5>Cisco</h5></div>
+            <div className="col s6 m4 l3 xl2"><h5>Windows</h5></div>
+            <div className="col s6 m4 l3 xl2"><h5>Linux</h5></div>
+            <div className="col s6 m4 l3 xl2"><h5><span className="blue lighten-4">Mac OS</span></h5></div>
           </div>
         </div>
       </div>
