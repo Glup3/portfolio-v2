@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Zoom from 'react-reveal/Zoom';
 
 function Technologies() {
   return (
@@ -6,6 +7,7 @@ function Technologies() {
       <div className="block container">
         <div className="scrollspy" id="tech">
           <h1>Tech Stack</h1>
+          <Zoom top cascade duration={1500}>
           <div className="row">
             <div className="col s6 m4 l3 xl2"><h5>HTML</h5></div>
             <div className="col s6 m4 l3 xl2"><h5>CSS</h5></div>
@@ -47,6 +49,7 @@ function Technologies() {
             <div className="col s6 m4 l3 xl2"><h5>Linux</h5></div>
             <div className="col s6 m4 l3 xl2"><h5><span className="blue lighten-4">Mac OS</span></h5></div>
           </div>
+          </Zoom>
         </div>
       </div>
     </section>
