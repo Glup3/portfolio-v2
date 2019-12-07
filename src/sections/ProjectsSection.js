@@ -1,7 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-function Projects() {
+const ProjectsSection = () => {
   return (
     <section>
       <div className="block container">
@@ -115,4 +115,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default ProjectsSection

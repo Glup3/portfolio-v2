@@ -1,6 +1,6 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
-import TechItem from './TechItem';
+import TechItem from '../components/TechItem';
 
 const technologies = [
   { title: 'HTML', special: false },
@@ -42,7 +42,7 @@ const technologies = [
   { title: 'MacOS', special: true }
 ];
 
-const Technologies = () => {
+const TechnologySection = () => {
   return (
     <section>
       <div className="block container">
@@ -61,4 +61,4 @@ const Technologies = () => {
   );
 };
 
-export default Technologies;
+export default TechnologySection;

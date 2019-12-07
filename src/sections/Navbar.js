@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Navbar() {
+const Navbar = () => {
   return (
     <header>
       <div className="navbar-fixed">

@@ -1,10 +1,10 @@
 import React from 'react';
 import pikachu from '../images/Pikachu225.jpg';
-import IconsSocial from './IconsSocial';
+import IconsSocial from '../components/IconsSocial';
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 
-function Home() {
+const HomeSection = () => {
   return (
     <section>
       <div className="block container">
@@ -28,4 +28,4 @@ function Home() {
   )
 }
 
-export default Home
+export default HomeSection

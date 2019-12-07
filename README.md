@@ -4,8 +4,8 @@ Web portfolio about me
 
 ## Screenshots
 
-![Home](/src/images/screenshots/home.png)
-![About](/src/images/screenshots/about.png)
-![Tech](/src/images/screenshots/tech.png)
-![Projects](/src/images/screenshots/projects.png)
-![Contact](/src/images/screenshots/contact.png)
+![Home](/screenshots/home.png)
+![About](/screenshots/about.png)
+![Tech](/screenshots/tech.png)
+![Projects](/screenshots/projects.png)
+![Contact](/screenshots/contact.png)
