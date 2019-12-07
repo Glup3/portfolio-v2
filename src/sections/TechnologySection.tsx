@@ -39,7 +39,7 @@ const technologies = [
   { title: 'Cisco', special: false },
   { title: 'Windows', special: false },
   { title: 'Linux', special: false },
-  { title: 'MacOS', special: true }
+  { title: 'MacOS', special: true },
 ];
 
 const TechnologySection = () => {

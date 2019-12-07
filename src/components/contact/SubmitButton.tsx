@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function SubmitButton() {
   return (
@@ -6,7 +6,7 @@ function SubmitButton() {
       Submit
       <i className="far fa-paper-plane right"></i>
     </button>
-  )
+  );
 }
 
-export default SubmitButton
+export default SubmitButton;

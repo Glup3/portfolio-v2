@@ -6,9 +6,10 @@ const ProjectsSection = () => {
     <section>
       <div className="block container">
         <div className="scrollspy" id="projects">
-          <Fade clear><h1>Projects</h1></Fade>
+          <Fade clear>
+            <h1>Projects</h1>
+          </Fade>
           <div className="row">
-
             <Fade left top>
               <div className="col s12 m6 l4">
                 <div className="card small">
@@ -19,7 +20,9 @@ const ProjectsSection = () => {
                     <i className="fab fa-apple project-icon"></i>
                   </div>
                   <div className="card-action">
-                    <a target="_blank" href="https://github.com/Glup3/iWeep" rel="noopener noreferrer">More</a>
+                    <a target="_blank" href="https://github.com/Glup3/iWeep" rel="noopener noreferrer">
+                      More
+                    </a>
                   </div>
                 </div>
               </div>
@@ -35,8 +38,12 @@ const ProjectsSection = () => {
                     <i className="fab fa-npm project-icon"></i>
                   </div>
                   <div className="card-action">
-                    <a target="_blank" href="https://github.com/Glup3/watch-with-me" rel="noopener noreferrer">More</a>
-                    <a target="_blank" href="https://watch-with-me-glup3.herokuapp.com/" rel="noopener noreferrer">Link</a>
+                    <a target="_blank" href="https://github.com/Glup3/watch-with-me" rel="noopener noreferrer">
+                      More
+                    </a>
+                    <a target="_blank" href="https://watch-with-me-glup3.herokuapp.com/" rel="noopener noreferrer">
+                      Link
+                    </a>
                   </div>
                 </div>
               </div>
@@ -52,7 +59,9 @@ const ProjectsSection = () => {
                     <i className="fab fa-apple project-icon"></i>
                   </div>
                   <div className="card-action">
-                    <a target="_blank" href="https://github.com/Glup3/AniLife" rel="noopener noreferrer">More</a>
+                    <a target="_blank" href="https://github.com/Glup3/AniLife" rel="noopener noreferrer">
+                      More
+                    </a>
                   </div>
                 </div>
               </div>
@@ -68,8 +77,12 @@ const ProjectsSection = () => {
                     <i className="fas fa-fire-alt project-icon"></i>
                   </div>
                   <div className="card-action">
-                    <a target="_blank" href="https://github.com/Glup3/react-blog" rel="noopener noreferrer">More</a>
-                    <a target="_blank" href="https://react-blog-5862a.firebaseapp.com/signin" rel="noopener noreferrer">Link</a>
+                    <a target="_blank" href="https://github.com/Glup3/react-blog" rel="noopener noreferrer">
+                      More
+                    </a>
+                    <a target="_blank" href="https://react-blog-5862a.firebaseapp.com/signin" rel="noopener noreferrer">
+                      Link
+                    </a>
                   </div>
                 </div>
               </div>
@@ -85,8 +98,12 @@ const ProjectsSection = () => {
                     <i className="far fa-images project-icon"></i>
                   </div>
                   <div className="card-action">
-                    <a target="_blank" href="https://github.com/Glup3/iWeep" rel="noopener noreferrer">More</a>
-                    <a target="_blank" href="https://glup3.github.io/lichtelwiki/" rel="noopener noreferrer">Link</a>
+                    <a target="_blank" href="https://github.com/Glup3/iWeep" rel="noopener noreferrer">
+                      More
+                    </a>
+                    <a target="_blank" href="https://glup3.github.io/lichtelwiki/" rel="noopener noreferrer">
+                      Link
+                    </a>
                   </div>
                 </div>
               </div>
@@ -102,17 +119,18 @@ const ProjectsSection = () => {
                     <i className="fab fa-google project-icon"></i>
                   </div>
                   <div className="card-action">
-                    <a target="_blank" href="https://github.com/Glup3/portfolio-v2" rel="noopener noreferrer">More</a>
+                    <a target="_blank" href="https://github.com/Glup3/portfolio-v2" rel="noopener noreferrer">
+                      More
+                    </a>
                   </div>
                 </div>
               </div>
             </Fade>
-
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;
