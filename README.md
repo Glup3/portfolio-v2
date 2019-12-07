@@ -1,6 +1,6 @@
 # Portfolio v2
 
-Web portfolio about me
+2nd Version of the Portfolio about Phuc Tran
 
 ## Screenshots
 
@@ -9,3 +9,7 @@ Web portfolio about me
 ![Tech](/screenshots/tech.png)
 ![Projects](/screenshots/projects.png)
 ![Contact](/screenshots/contact.png)
+
+## Docker Setup
+
+`docker-compose up` to build and start this. It will run on `http://localhost:80`
