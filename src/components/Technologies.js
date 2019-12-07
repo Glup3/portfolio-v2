@@ -1,59 +1,64 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
+import TechItem from './TechItem';
 
-function Technologies() {
+const technologies = [
+  { title: 'HTML', special: false },
+  { title: 'CSS', special: false },
+  { title: 'JS', special: false },
+  { title: 'NodeJS', special: true },
+  { title: 'ReactJS', special: true },
+  { title: 'Angular', special: false },
+  { title: 'Express', special: false },
+  { title: 'Django', special: false },
+  { title: 'Spring', special: false },
+  { title: 'Bootstrap', special: true },
+  { title: 'Materialize', special: false },
+  { title: 'Websockets', special: false },
+  { title: 'Java', special: true },
+  { title: 'Android', special: false },
+  { title: 'C#', special: false },
+  { title: 'Python', special: false },
+  { title: 'Flutter', special: true },
+  { title: 'Github', special: true },
+  { title: 'Bitbucket', special: false },
+  { title: 'MySQL', special: true },
+  { title: 'PLSQL', special: false },
+  { title: 'PostgreSQL', special: false },
+  { title: 'MongoDB', special: false },
+  { title: 'Firebase', special: false },
+  { title: 'Bash', special: false },
+  { title: 'Unity', special: false },
+  { title: 'GraphQL', special: true },
+  { title: 'REST', special: false },
+  { title: 'Docker', special: true },
+  { title: 'Microservices', special: false },
+  { title: 'NGINX', special: false },
+  { title: 'Jenkins', special: false },
+  { title: 'CI/CD', special: false },
+  { title: 'Cisco', special: false },
+  { title: 'Windows', special: false },
+  { title: 'Linux', special: false },
+  { title: 'MacOS', special: true }
+];
+
+const Technologies = () => {
   return (
     <section>
       <div className="block container">
         <div className="scrollspy" id="tech">
           <h1>Tech Stack</h1>
           <Zoom top cascade duration={1500}>
-          <div className="row">
-            <div className="col s6 m4 l3 xl2"><h5>HTML</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>CSS</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>JS</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>PHP</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>JQuery</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5><span className="blue lighten-4">ReactJS</span></h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Angular</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Django</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Spring</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Bootstrap</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5><span className="blue lighten-4">Materialize</span></h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Wordpress</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Websockets</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5><span className="blue lighten-4">Java</span></h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Android</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>C#</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Python</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5><span className="blue lighten-4">Flutter</span></h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Github</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Bitbucket</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5><span className="blue lighten-4">MySQL</span></h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>PLSQL</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>PostgreSQL</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5><span className="blue lighten-4">MongoDB</span></h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Firestore</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>NodeJS</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Express</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Bash</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Unity</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5><span className="blue lighten-4">GraphQL</span></h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>REST</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5><span className="blue lighten-4">Docker</span></h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Microservices</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>NGINX</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>CI/CD</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Cisco</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Windows</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5>Linux</h5></div>
-            <div className="col s6 m4 l3 xl2"><h5><span className="blue lighten-4">Mac OS</span></h5></div>
-          </div>
+            <div className="row">
+              {technologies.map((item, index) => (
+                <TechItem title={item.title} special={item.special} key={`item-${index}`} />
+              ))}
+            </div>
           </Zoom>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Technologies
+export default Technologies;
