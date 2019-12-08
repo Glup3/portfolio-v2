@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className="nav-wrapper custom-transparent z-depth-0">
           <div className="container">
             <a href="#home" className="brand-logo black-text">
-              Glup3
+              Phuc Tran
             </a>
             <a href="#!" data-target="mobile-demo" className="sidenav-trigger">
               <i className="fas fa-bars black-text"></i>

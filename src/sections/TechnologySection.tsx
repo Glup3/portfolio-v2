@@ -1,6 +1,7 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import TechItem from '../components/TechItem';
+import SectionWrapper from '../components/SectionWrapper';
 
 const technologies = [
   { title: 'HTML', special: false },
@@ -44,20 +45,16 @@ const technologies = [
 
 const TechnologySection = () => {
   return (
-    <section>
-      <div className="block container">
-        <div className="scrollspy" id="tech">
-          <h1>Tech Stack</h1>
-          <Zoom top cascade duration={1500}>
-            <div className="row">
-              {technologies.map((item, index) => (
-                <TechItem title={item.title} special={item.special} key={`item-${index}`} />
-              ))}
-            </div>
-          </Zoom>
+    <SectionWrapper id="tech">
+      <Zoom top duration={1500}>
+        <h1>Tech Stack</h1>
+        <div className="row">
+          {technologies.map((item, index) => (
+            <TechItem title={item.title} special={item.special} key={`item-${index}`} />
+          ))}
         </div>
-      </div>
-    </section>
+      </Zoom>
+    </SectionWrapper>
   );
 };
 
