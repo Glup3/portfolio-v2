@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <header>
+    <header className="navbar">
       <div className="navbar-fixed">
         <nav className="nav-wrapper custom-transparent z-depth-0">
           <div className="container">
