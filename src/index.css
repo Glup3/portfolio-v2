@@ -41,6 +41,11 @@
   padding-bottom: 15px;
 }
 
+.highlighted-text {
+  border-bottom: 2px solid #039be5;
+  padding-bottom: 1px;
+}
+
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
   color: #039be5 !important;
 }
