@@ -1,5 +1,13 @@
 import React from 'react';
 
+const navbarItems: NavbarItem[] = [
+  { name: 'Home', link: '#home' },
+  { name: 'About', link: '#about' },
+  { name: 'Tech stack', link: '#tech' },
+  { name: 'Projects', link: '#projects' },
+  { name: 'Contact', link: '#contact' },
+];
+
 const Navbar = () => {
   return (
     <header className="navbar">
@@ -13,61 +21,25 @@ const Navbar = () => {
               <i className="fas fa-bars black-text"></i>
             </a>
             <ul className="right hide-on-med-and-down">
-              <li>
-                <a href="#home" className="black-text">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="black-text">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#tech" className="black-text">
-                  Tech stack
-                </a>
-              </li>
-              <li>
-                <a href="#projects" className="black-text">
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="black-text">
-                  Contact
-                </a>
-              </li>
+              {navbarItems.map((item, index) => (
+                <li key={`navNormal-${index}`}>
+                  <a href={item.link} className="black-text">
+                    {item.name}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </nav>
       </div>
       <ul id="mobile-demo" className="sidenav">
-        <li>
-          <a href="#home" className="black-text">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#about" className="black-text">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="#tech" className="black-text">
-            Tech stack
-          </a>
-        </li>
-        <li>
-          <a href="#projects" className="black-text">
-            Projects
-          </a>
-        </li>
-        <li>
-          <a href="#contact" className="black-text">
-            Contact
-          </a>
-        </li>
+        {navbarItems.map((item, index) => (
+          <li key={`navNormal-${index}`}>
+            <a href={item.link} className="black-text">
+              {item.name}
+            </a>
+          </li>
+        ))}
       </ul>
     </header>
   );
