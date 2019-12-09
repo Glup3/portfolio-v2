@@ -1,11 +1,15 @@
 import React from 'react';
+import HighlightText from './HighlightText';
 
-const TechItem = ({ title, special }) => {
+interface TechItemPropsType {
+  title: string;
+  special: boolean;
+}
+
+const TechItem = ({ title, special }: TechItemPropsType) => {
   return (
     <div className="col s6 m4 l3 xl2">
-      <h5>
-        <span className={`${special && 'blue lighten-4'}`}>{title}</span>
-      </h5>
+      <h5>{!special ? <span>{title}</span> : <HighlightText text={title} />}</h5>
     </div>
   );
 };
