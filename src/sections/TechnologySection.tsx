@@ -3,7 +3,7 @@ import Zoom from 'react-reveal/Zoom';
 import TechItem from '../components/TechItem';
 import SectionWrapper from '../components/SectionWrapper';
 
-const technologies = [
+const technologies: Technology[] = [
   { title: 'HTML', special: false },
   { title: 'CSS', special: false },
   { title: 'JS', special: false },

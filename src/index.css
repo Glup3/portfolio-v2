@@ -37,6 +37,10 @@
   padding: 10px;
 }
 
+.project-description {
+  padding-bottom: 15px;
+}
+
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
   color: #039be5 !important;
 }
