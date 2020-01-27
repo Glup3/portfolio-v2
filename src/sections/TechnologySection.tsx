@@ -6,7 +6,8 @@ import SectionWrapper from '../components/SectionWrapper';
 const technologies: Technology[] = [
   { title: 'HTML', special: false },
   { title: 'CSS', special: false },
-  { title: 'JS', special: false },
+  { title: 'Javscript', special: true },
+  { title: 'Typescript', special: false },
   { title: 'NodeJS', special: true },
   { title: 'ReactJS', special: true },
   { title: 'Angular', special: false },
