@@ -1,27 +1,29 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { primaryColor } from '../../styles/base-colors';
-
 const Switch = styled.div`
   position: fixed;
   bottom: 20px;
   right: 20px;
 
   .switch label {
+    /* dark */
     input[type='checkbox']:checked + .lever {
-      &:after {
-        background-color: ${primaryColor};
-      }
+      background-color: #c1c1c1;
 
-      background-color: ${primaryColor};
+      /* circle */
+      &:after {
+        background-color: #232323;
+      }
     }
 
+    /* light */
     .lever {
-      background-color: ${primaryColor};
+      background-color: #c1c1c1;
 
+      /* circle */
       &:after {
-        background-color: ${primaryColor};
+        background-color: #ffffff;
       }
     }
   }

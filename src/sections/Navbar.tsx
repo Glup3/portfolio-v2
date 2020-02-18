@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import theme from 'styled-theming';
 
-import { primaryColor, surfaceColor, strongPrimaryColor } from '../styles/base-colors';
+import { surfaceColor, strongPrimaryColor } from '../styles/base-colors';
 
 const navbarItems: NavbarItem[] = [
   { name: 'Home', link: '#home' },
