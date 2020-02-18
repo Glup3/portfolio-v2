@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { ThemeProvider } from 'styled-components';
 import M from 'materialize-css';
 
 import {
@@ -10,8 +11,12 @@ import {
   Footer,
   ContactSection,
 } from './sections';
+import ThemeSwitch from './components/ThemeSwitch';
 
 const App = () => {
+  const stored = localStorage.getItem('isDarkMode');
+  const [isDarkMode, setIsDarkMode] = useState(stored === 'true');
+
   useEffect(() => {
     const scrollspies = document.querySelectorAll('.scrollspy');
     const sidenav = document.querySelectorAll('.sidenav');
@@ -23,7 +28,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App">
+    <ThemeProvider theme={{ mode: isDarkMode ? 'dark' : 'light' }}>
       <Navbar />
       <HomeSection />
       <AboutSection />
@@ -31,7 +36,14 @@ const App = () => {
       <ProjectsSection />
       <ContactSection />
       <Footer />
-    </div>
+      <ThemeSwitch
+        changeTheme={() => {
+          localStorage.setItem('isDarkMode', isDarkMode ? 'false' : 'true');
+          setIsDarkMode(!isDarkMode);
+        }}
+        isDarkMode={isDarkMode}
+      />
+    </ThemeProvider>
   );
 };
 

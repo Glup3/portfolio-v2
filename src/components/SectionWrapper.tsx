@@ -7,8 +7,6 @@ interface SectionWrapperPropsType {
 }
 
 const SectionWrapper = ({ id, children, center = false }: SectionWrapperPropsType) => {
-  console.log('type', typeof children);
-
   return (
     <section>
       <div className="block container">
