@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import theme from 'styled-theming';
 
-import { primaryColor, surfaceColor } from '../styles/base-colors';
+import { primaryColor, surfaceColor, strongPrimaryColor } from '../styles/base-colors';
 
 const navbarItems: NavbarItem[] = [
   { name: 'Home', link: '#home' },
@@ -26,15 +26,15 @@ const Nav = styled.nav`
 `;
 
 const BrandTitle = styled.a`
-  color: ${primaryColor} !important;
+  color: ${strongPrimaryColor} !important;
 `;
 
 const BurgerMenu = styled.i`
-  color: ${primaryColor};
+  color: ${strongPrimaryColor};
 `;
 
 const MenuLink = styled.a`
-  color: ${primaryColor} !important;
+  color: ${strongPrimaryColor} !important;
 `;
 
 const SideNav = styled.ul`

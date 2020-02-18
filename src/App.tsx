@@ -12,12 +12,16 @@ import {
   ContactSection,
 } from './sections';
 import ThemeSwitch from './components/ThemeSwitch';
-import { surfaceColor, primaryColor } from './styles/base-colors';
+import { surfaceColor, primaryColor, strongPrimaryColor } from './styles/base-colors';
 
 const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${surfaceColor};
     color: ${primaryColor};
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: ${strongPrimaryColor};
   }
 `;
 

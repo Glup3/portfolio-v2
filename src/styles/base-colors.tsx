@@ -2,6 +2,11 @@ import theme from 'styled-theming';
 
 const primaryColor = theme('mode', {
   light: '#000000',
+  dark: '#c1c1c1',
+});
+
+const strongPrimaryColor = theme('mode', {
+  light: '#000000',
   dark: '#ffffff',
 });
 
@@ -16,4 +21,4 @@ const surfaceColor = theme('mode', {
 });
 
 // eslint-disable-next-line import/prefer-default-export
-export { primaryColor, surfaceColor, accentColor };
+export { primaryColor, surfaceColor, accentColor, strongPrimaryColor };
