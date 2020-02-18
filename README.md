@@ -16,6 +16,12 @@ npm run predeploy
 npm run deploy
 ```
 
+## NEW - Dark Theme
+
+It is now possible to switch beetween a `Light` and `Dark` Theme.
+
 ## Screenshot
 
-![Screenshot](/screenshots/screenshot.png)
+![Screenshot](/screenshots/screenshot-light.png)
+
+![Screenshot](/screenshots/screenshot-dark.png)
