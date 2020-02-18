@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import theme from 'styled-theming';
 
-import { primaryColor } from '../styles/base-colors';
+import { primaryColor, surfaceColor } from '../styles/base-colors';
 
 const navbarItems: NavbarItem[] = [
   { name: 'Home', link: '#home' },
@@ -30,7 +30,11 @@ const BurgerMenu = styled.i`
 `;
 
 const MenuLink = styled.a`
-  color: ${primaryColor};
+  color: ${primaryColor} !important;
+`;
+
+const SideNav = styled.ul`
+  background-color: ${surfaceColor};
 `;
 
 const Navbar = () => {
@@ -55,15 +59,13 @@ const Navbar = () => {
           </div>
         </Nav>
       </div>
-      <ul id="mobile-demo" className="sidenav">
+      <SideNav id="mobile-demo" className="sidenav">
         {navbarItems.map((item, index) => (
           <li key={`navNormal-${index}`}>
-            <a href={item.link} className="black-text">
-              {item.name}
-            </a>
+            <MenuLink href={item.link}>{item.name}</MenuLink>
           </li>
         ))}
-      </ul>
+      </SideNav>
     </header>
   );
 };
