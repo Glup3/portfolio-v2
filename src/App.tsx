@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 import M from 'materialize-css';
 
 import {
@@ -12,6 +12,11 @@ import {
   ContactSection,
 } from './sections';
 import ThemeSwitch from './components/ThemeSwitch';
+import { surfaceColor } from './styles/base-colors';
+
+const Container = styled.div`
+  background-color: ${surfaceColor};
+`;
 
 const App = () => {
   const stored = localStorage.getItem('isDarkMode');
@@ -29,20 +34,22 @@ const App = () => {
 
   return (
     <ThemeProvider theme={{ mode: isDarkMode ? 'dark' : 'light' }}>
-      <Navbar />
-      <HomeSection />
-      <AboutSection />
-      <TechnologySection />
-      <ProjectsSection />
-      <ContactSection />
-      <Footer />
-      <ThemeSwitch
-        changeTheme={() => {
-          localStorage.setItem('isDarkMode', isDarkMode ? 'false' : 'true');
-          setIsDarkMode(!isDarkMode);
-        }}
-        isDarkMode={isDarkMode}
-      />
+      <Container>
+        <Navbar />
+        <HomeSection />
+        <AboutSection />
+        <TechnologySection />
+        <ProjectsSection />
+        <ContactSection />
+        <Footer />
+        <ThemeSwitch
+          changeTheme={() => {
+            localStorage.setItem('isDarkMode', isDarkMode ? 'false' : 'true');
+            setIsDarkMode(!isDarkMode);
+          }}
+          isDarkMode={isDarkMode}
+        />
+      </Container>
     </ThemeProvider>
   );
 };

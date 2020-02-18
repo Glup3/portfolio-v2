@@ -1,4 +1,8 @@
 import React from 'react';
+import styled from 'styled-components';
+import theme from 'styled-theming';
+
+import { primaryColor } from '../styles/base-colors';
 
 const navbarItems: NavbarItem[] = [
   { name: 'Home', link: '#home' },
@@ -8,29 +12,48 @@ const navbarItems: NavbarItem[] = [
   { name: 'Contact', link: '#contact' },
 ];
 
+const transparentColor = theme('mode', {
+  light: 'rgba(255, 255, 255, 0.9)',
+  dark: '#121212cc',
+});
+
+const Nav = styled.nav`
+  background-color: ${transparentColor};
+`;
+
+const BrandTitle = styled.a`
+  color: ${primaryColor} !important;
+`;
+
+const BurgerMenu = styled.i`
+  color: ${primaryColor};
+`;
+
+const MenuLink = styled.a`
+  color: ${primaryColor};
+`;
+
 const Navbar = () => {
   return (
     <header className="navbar">
       <div className="navbar-fixed">
-        <nav className="nav-wrapper custom-transparent z-depth-0">
+        <Nav className="nav-wrapper z-depth-0">
           <div className="container">
-            <a href="#home" className="brand-logo black-text">
+            <BrandTitle href="#home" className="brand-logo">
               Phuc Tran
-            </a>
+            </BrandTitle>
             <a href="#!" data-target="mobile-demo" className="sidenav-trigger">
-              <i className="fas fa-bars black-text"></i>
+              <BurgerMenu className="fas fa-bars"></BurgerMenu>
             </a>
             <ul className="right hide-on-med-and-down">
               {navbarItems.map((item, index) => (
                 <li key={`navNormal-${index}`}>
-                  <a href={item.link} className="black-text">
-                    {item.name}
-                  </a>
+                  <MenuLink href={item.link}>{item.name}</MenuLink>
                 </li>
               ))}
             </ul>
           </div>
-        </nav>
+        </Nav>
       </div>
       <ul id="mobile-demo" className="sidenav">
         {navbarItems.map((item, index) => (

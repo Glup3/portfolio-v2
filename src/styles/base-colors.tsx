@@ -5,5 +5,10 @@ const primaryColor = theme('mode', {
   dark: '#ffffff',
 });
 
+const surfaceColor = theme('mode', {
+  light: '#ffffff',
+  dark: '#121212',
+});
+
 // eslint-disable-next-line import/prefer-default-export
-export { primaryColor };
+export { primaryColor, surfaceColor };

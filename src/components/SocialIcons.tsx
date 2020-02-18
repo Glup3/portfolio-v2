@@ -1,8 +1,20 @@
 import React from 'react';
+import styled from 'styled-components';
+
+import { primaryColor } from '../styles/base-colors';
+
+const IconsContainer = styled.div`
+  font-size: 3em;
+
+  i {
+    color: ${primaryColor};
+    padding: 10px;
+  }
+`;
 
 const SocialIcons = () => {
   return (
-    <div className="icons-social">
+    <IconsContainer>
       <a target="_blank" rel="noopener noreferrer" href="https://github.com/Glup3">
         <i className="fab fa-github"></i>
       </a>
@@ -18,7 +30,7 @@ const SocialIcons = () => {
       <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCN8LfiD2wp_DmTbiVXNhl0g">
         <i className="fab fa-youtube"></i>
       </a>
-    </div>
+    </IconsContainer>
   );
 };
 

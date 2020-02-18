@@ -1,10 +1,17 @@
 import React from 'react';
 import Bounce from 'react-reveal/Bounce';
+import styled from 'styled-components';
+
+import { primaryColor } from '../styles/base-colors';
+
+const Title = styled.h1`
+  color: ${primaryColor};
+`;
 
 const Greeting = () => {
   return (
     <Bounce top duration={1300}>
-      <h1>Hey, I&apos;m Phuc!</h1>
+      <Title>Hey, I&apos;m Phuc!</Title>
     </Bounce>
   );
 };
