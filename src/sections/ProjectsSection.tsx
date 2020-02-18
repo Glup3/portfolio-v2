@@ -36,7 +36,7 @@ const projects: Project[] = [
     title: 'Timeru',
     description: 'Time Tracking Tool',
     images: ['fab fa-react', 'fab fa-node'],
-    moreLink: 'https://github.com/Glup3/portfolio-v2',
+    moreLink: 'https://github.com/Glup3/timeru-frontend/tree/development',
   },
 ];
 

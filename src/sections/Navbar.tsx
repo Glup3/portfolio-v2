@@ -17,6 +17,10 @@ const transparentColor = theme('mode', {
   dark: '#121212cc',
 });
 
+const NavHeader = styled.header`
+  height: 0px;
+`;
+
 const Nav = styled.nav`
   background-color: ${transparentColor};
 `;
@@ -39,7 +43,7 @@ const SideNav = styled.ul`
 
 const Navbar = () => {
   return (
-    <header className="navbar">
+    <NavHeader>
       <div className="navbar-fixed">
         <Nav className="nav-wrapper z-depth-0">
           <div className="container">
@@ -66,7 +70,7 @@ const Navbar = () => {
           </li>
         ))}
       </SideNav>
-    </header>
+    </NavHeader>
   );
 };
 
