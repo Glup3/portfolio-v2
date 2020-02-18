@@ -24,6 +24,7 @@ const projects: Project[] = [
     description: 'Current online Portfolio',
     images: ['fab fa-react', 'fab fa-github'],
     moreLink: 'https://github.com/Glup3/portfolio-v2',
+    website: 'https://glup3.github.io/portfolio-v2/',
   },
   {
     title: 'React Blog',

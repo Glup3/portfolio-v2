@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { primaryColor } from '../styles/base-colors';
+import { strongPrimaryColor } from '../styles/base-colors';
 
 const IconsContainer = styled.div`
   font-size: 3em;
 
   i {
-    color: ${primaryColor};
+    color: ${strongPrimaryColor};
     padding: 10px;
   }
 `;

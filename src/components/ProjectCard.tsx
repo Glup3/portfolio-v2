@@ -2,7 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import styled from 'styled-components';
 import theme from 'styled-theming';
-import { primaryColor, accentColor } from '../styles/base-colors';
+import { accentColor, strongPrimaryColor } from '../styles/base-colors';
 
 interface ProjectCardPropsType {
   project: Project;
@@ -19,12 +19,13 @@ const Card = styled.div`
 
   .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
     color: ${accentColor} !important;
+    text-transform: none;
   }
 `;
 
 const ProjectIcon = styled.i`
   font-size: 3em;
-  color: ${primaryColor};
+  color: ${strongPrimaryColor};
   padding: 10px;
 `;
 
@@ -52,7 +53,7 @@ const ProjectCard = ({ project, additionalDuration }: ProjectCardPropsType) => {
             )}
             {project.website && (
               <a target="_blank" href={project.website} rel="noopener noreferrer">
-                Link
+                Website
               </a>
             )}
           </div>
