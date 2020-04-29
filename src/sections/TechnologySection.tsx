@@ -6,7 +6,7 @@ import SectionWrapper from '../components/SectionWrapper';
 const technologies: Technology[] = [
   { title: 'HTML', special: false },
   { title: 'CSS', special: false },
-  { title: 'Javscript', special: true },
+  { title: 'JavaScript', special: true },
   { title: 'Typescript', special: false },
   { title: 'NodeJS', special: true },
   { title: 'ReactJS', special: true },
@@ -22,7 +22,7 @@ const technologies: Technology[] = [
   { title: 'C#', special: false },
   { title: 'Python', special: false },
   { title: 'Flutter', special: true },
-  { title: 'Github', special: true },
+  { title: 'GitHub', special: true },
   { title: 'Bitbucket', special: false },
   { title: 'MySQL', special: true },
   { title: 'PLSQL', special: false },
