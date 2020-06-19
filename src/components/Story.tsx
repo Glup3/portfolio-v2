@@ -8,31 +8,26 @@ const Story = () => {
   return (
     <>
       <Fade left duration={duration}>
-        <p className="flow-text">Student | Phuc Tran | 18 years old | male</p>
+        <p className="flow-text">Software Engineer | Phuc Tran | 18 years old | male</p>
       </Fade>
       <Fade left duration={duration}>
         <p className="flow-text">
-          I&apos;m in my last year of <HighlightText text="high school" /> and I learn how to code.
+          I graduated from high school with a <HighlightText text="specilization in IT" />. I am coding since 2015 and I
+          have worked with many <HighlightText text="different technologies" />. I can create desktop apps, mobile apps
+          and web apps from scratch.
         </p>
       </Fade>
       <Fade left duration={duration}>
         <p className="flow-text">
-          I started coding in 2015 and learned basic object orientated programming. The first years were just getting
-          basic knowledge and understanding the fundamentals. In <HighlightText text="2017" /> I started working on{' '}
-          <HighlightText text="projects" /> and since then I feel <HighlightText text="pretty comfy about my skills" />.
+          I worked as an <HighlightText text="intern" /> for two different companies. Each internship was 2 months long
+          and I worked as a tester and web developer. I also did some <HighlightText text="freelancing" /> as a web
+          developer for a different company which lasted 5 months.
         </p>
       </Fade>
       <Fade left duration={duration}>
         <p className="flow-text">
-          I am a <HighlightText text="full stack developer" /> and I have experience with many technologies:{' '}
-          <HighlightText text="Frontend" />, <HighlightText text="Backend" />, Database, Mobile Apps, Version Control,
-          CI/CD, <HighlightText text="Docker" />, ...
-        </p>
-      </Fade>
-      <Fade left duration={duration}>
-        <p className="flow-text">
-          I love to code in my spare time, but there are also a lot of other things I do. I like to do sports, skating,
-          reading books / mangas / light novels, watching anime, playing video games, studying japanese and many more.
+          I <HighlightText text="love to code" /> in my spare time, but besides that I like to do many other things. I
+          like to study japanese, play video games, do sports and read mangas / light novels.
         </p>
       </Fade>
     </>

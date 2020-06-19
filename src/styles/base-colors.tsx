@@ -20,5 +20,10 @@ const surfaceColor = theme('mode', {
   dark: '#121212',
 });
 
-// eslint-disable-next-line import/prefer-default-export
-export { primaryColor, surfaceColor, accentColor, strongPrimaryColor };
+const boxShadow = theme('mode', {
+  light: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)',
+  dark:
+    '0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12), 0 2px 4px -1px rgba(255, 255, 255, 0.3)',
+});
+
+export { primaryColor, surfaceColor, accentColor, strongPrimaryColor, boxShadow };
